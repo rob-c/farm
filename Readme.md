@@ -19,7 +19,7 @@ Python3 has natively supported virtualenvs via the venv module for some time now
 > python3 -m venv env
 ```
 
-You can technically use whatever foldername you prefer, but this project has an appropriate .gitignore rule for the `en\v\` folder which is a good indicator of what is within that folder.
+You can technically use whatever foldername you prefer, but this project has an appropriate .gitignore rule for the `env\` folder which is a good indicator of what is within that folder.
 
 2. Activate the new virtual env:
 ```
