@@ -13,6 +13,7 @@ if __name__ == "__main__":
     farm.add_animal(Dog("Buddy"))
     farm.add_animal(Cow("Bessie"))
     farm.add_animal(Chicken("Clucky"))
+    farm.add_animal(Ostrich("UltronMasterOfTheUniverse"))
 
     # Add crops
     farm.add_crop(Corn())
