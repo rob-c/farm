@@ -1,0 +1,2 @@
+lolpython
+python-cowsay
