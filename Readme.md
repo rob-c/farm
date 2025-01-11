@@ -14,32 +14,32 @@ This project is designed to run requiring libraries not normally in a Python3 in
 
 Python3 has natively supported virtualenvs via the venv module for some time now. This is the recommended way to get running with Python3 Virtual Environments.
 
-First. Setup a new env within this project:
+1. Setup a new env within this project:
 ```
 > python3 -m venv env
 ```
 
 You can technically use whatever foldername you prefer, but this project has an appropriate .gitignore rule for the `en\v\` folder which is a good indicator of what is within that folder.
 
-Second. Activate the new virtual env:
+2. Activate the new virtual env:
 ```
 > source ./env/bin/activate
 (env) > _
 ```
 
-Third. Install this project into the new virtual env:
+3. Install this project into the new virtual env:
 ```
 (env) > python3 -m pip -r requirements.txt
 ```
 
-Forth. Run the project
+4. Run the project
 ```
 (env) > python3 main.py
 
 ...
 ```
 
-Fifth. Leave the virtualenv after you're finished:
+5. Leave the virtualenv after you're finished:
 ```
 (env) > deactivate
 > _
