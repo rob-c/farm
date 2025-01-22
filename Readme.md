@@ -27,6 +27,11 @@ You can technically use whatever foldername you prefer, but this project has an 
 (env) > _
 ```
 
+ (or Windows) 
+```
+.\env\Scripts\activate
+```
+
 3. Install this project into the new virtual env:
 ```
 (env) > python3 -m pip -r requirements.txt
