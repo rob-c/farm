@@ -1,6 +1,7 @@
 from animals.dog import Dog
 from animals.cow import Cow
 from animals.chicken import Chicken
+from animals.ostrich import Ostrich
 from crops import *
 from equipment.equipment import Equipment
 from cowsay import cowsay
