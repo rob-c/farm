@@ -34,7 +34,7 @@ You can technically use whatever foldername you prefer, but this project has an 
 
 3. Install this project into the new virtual env:
 ```
-(env) > python3 -m pip -r requirements.txt
+(env) > python3 -m pip install -r requirements.txt
 ```
 
 4. Run the project
