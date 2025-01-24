@@ -1,6 +1,7 @@
 from animals.dog import Dog
 from animals.cow import Cow
 from animals.chicken import Chicken
+from animals.emu import Emu
 from crops import *
 from equipment.equipment import Equipment
 from cowsay import cowsay
@@ -62,7 +63,7 @@ class Farm:
         msg += "Animal noises:\n"
         msg += "\n".join([animal.make_noise() for animal in self.animals])
 
-        msg =+ "\nGoodbye!"
+        msg += "\nGoodbye!"
         
         return msg
 
