@@ -62,7 +62,7 @@ class Farm:
         msg += "Animal noises:\n"
         msg += "\n".join([animal.make_noise() for animal in self.animals])
 
-        msg =+ "\nGoodbye!"
+        msg += "\nGoodbye!"
         
         return msg
 
