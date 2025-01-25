@@ -1,4 +1,4 @@
-
+from .potato import Potato
 from .corn import Corn
 from .wheat import Wheat
 from .rice import Rice
